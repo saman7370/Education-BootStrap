@@ -1,0 +1,103 @@
+@font-face{
+    font-family: iranyekanbold;
+    font-style: normal;
+    font-weight: bold;
+    src:url('../fonts/iranyekan/eot/iranyekanwebbold(fanum).eot') format('eot'),
+    url('../fonts/iranyekan/woff2/iranyekanwebbold(fanum).woff2') format('woff2'),
+    url('../fonts/iranyekan/woff/iranyekanwebbold(fanum).woff') format('woff'),
+    url('../fonts/iranyekan/ttf/iranyekanwebbold(fanum).ttf') format('ttf')
+}
+
+@font-face{
+    font-family: iranyekanlight;
+    font-style: normal;
+    font-weight: normal;
+    src:url('../fonts/iranyekan/eot/iranyekanweblight(fanum).eot') format('eot'),
+    url('../fonts/iranyekan/woff2/iranyekanweblight(fanum).woff2') format('woff2'),
+    url('../fonts/iranyekan/woff/iranyekanweblight(fanum).woff') format('woff'),
+    url('../fonts/iranyekan/ttf/iranyekanweblight(fanum).ttf') format('ttf')
+}
+
+*{
+    font-family: iranyekanlight;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: iranyekanbold;}
+
+/* loader */
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;}
+
+#loader {
+    display: block;
+    position: relative;
+    right: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px -75px 0 0;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #9370DB;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;}
+
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #BA55D3;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;}
+
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #FF00FF;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;}
+
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

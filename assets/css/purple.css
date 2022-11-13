@@ -1,0 +1,22 @@
+:root{
+    --my-dark:#010101;
+    --my-purple:#5f43b2;
+    --my-light:#fefdfd;
+    --my-khaki:#b1aebb;
+    --my-dark-purple:#3a3153;}
+
+body{
+    background-color: var(--my-light);}
+
+#preloader{
+    background-color: var(--my-khaki);}
+
+#loader{
+    border-top-color: var(--my-purple);}
+
+#loader:before{
+    border-top-color: var(--my-dark-purple);}
+
+#loader:after{
+    border-top-color: var(--my-light);}
+
