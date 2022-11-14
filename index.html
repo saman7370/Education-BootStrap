@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="./assets/css/1200.css">
     <link rel="stylesheet" href="./assets/css/992.css">
     <link rel="stylesheet" href="./assets/css/768.css">
+    <link rel="stylesheet" href="./assets/css/600.css">
     <link rel="stylesheet" href="./assets/css/576.css">
+    <link rel="stylesheet" href="./assets/css/460.css">
     <link rel="stylesheet" href="./assets/css/purple.css">
     <title>Education</title>
 </head>
@@ -31,7 +33,7 @@
                         <i class="bi bi-list"></i>
                     </button>
 
-                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+                    <div class="offcanvas offcanvas-start menu-canvas" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
                         id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
                         <div class="offcanvas-header">
                             <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
@@ -54,8 +56,108 @@
                     </button>
                 </div>
                 </li>
-                <li></li>
-                <li></li>
+                <!-- logo -->
+                <li class="d-flex justify-content-start">
+                    <a href="./index.html">
+                        <span class="text-danger fs-1 fw-bold logo">S
+                            <span class="text-light">A</span>
+                            <span class="text-info">M</span>
+                            <span class="text-light">A</span>
+                            <span class="text-danger">N</span>
+                        </span>
+                    </a>
+                </li>
+                   
+                <li class="d-flex">
+                    <!-- dropDown -->
+                    <div class="dropdown custom-dropdown">
+                    <button type="button" class="me-1 fs-2" data-bs-toggle="dropdown" class="dropdown-link" aria-haspopup="true" aria-expanded="false">
+                        <i class="bi bi-bell-fill"></i>
+                       </button>
+
+                       <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                        <div class="title-wrap d-flex align-items-center">
+                          <h3 class="title mb-0 fs-4">اعلان ها</h3>
+                        </div>
+          
+                        <ul class="custom-notifications">
+                          <li class="unread">
+                            <a href="#" class="d-flex align-items-center">
+                              <div class="img me-3">
+                                <img src="./assets/img/Courses/react.jpg" alt="React" class="img-fluid">
+                              </div>
+                              <div class="text">
+                                دوره جدید <strong class="text-danger">React</strong> شروع شده است
+                              </div>
+                            </a>
+                          </li>
+                          <li class="unread">
+                            <a href="#" class="d-flex align-items-center">
+                              <div class="img me-3">
+                                <img src="./assets/img/Courses/angular.jpg" alt="React" class="img-fluid">
+                              </div>
+                              <div class="text">
+                                دوره جدید <strong class="text-danger">Angular</strong> شروع شده است
+                              </div>
+                            </a>
+                          </li>
+                          <li class="unread">
+                            <a href="#" class="d-flex align-items-center">
+                              <div class="img me-3">
+                                <img src="./assets/img/Courses/jquery.jpg" alt="React" class="img-fluid">
+                              </div>
+                              <div class="text">
+                                دوره جدید <strong class="text-danger">JavaScript</strong> شروع شده است
+                              </div>
+                            </a>
+                          </li>
+                          <li class="unread">
+                            <a href="#" class="d-flex align-items-center">
+                              <div class="img me-3">
+                                <img src="./assets/img/Courses/vue.jpg" alt="React" class="img-fluid">
+                              </div>
+                              <div class="text">
+                                دوره جدید <strong class="text-danger">Veu</strong> شروع شده است
+                              </div>
+                            </a>
+                          </li>
+                          <li class="unread">
+                            <a href="#" class="d-flex align-items-center">
+                              <div class="img me-3">
+                                <img src="./assets/img/Courses/bootatrap.jpg" alt="React" class="img-fluid">
+                              </div>
+                              <div class="text">
+                                دوره جدید <strong class="text-danger">BootStrap</strong> شروع شده است
+                              </div>
+                            </a>
+                          </li>
+          
+                          
+          
+                        </ul>
+                        <p class="text-center m-0 p-0"><a href="#" class="small">همه ی اعلان ها</a></p>
+                      </div>
+                    </div>
+                      <!-- user -->
+                    <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUser"
+                    aria-controls="offcanvasScrolling" class="me-1 fs-2">
+                    <i class="bi bi-person-circle"></i>
+                   </button>
+
+                <div class="offcanvas offcanvas-end user-canvas" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+                    id="offcanvasUser" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p>Try scrolling the rest of the page to see this option in action.</p>
+                    </div>
+                </div>
+
+
+                </li>
             </ul>
         </nav>
     </header>

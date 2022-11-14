@@ -1,0 +1,24 @@
+@media(max-width:460px){
+    .header{
+        height: 160px;
+        padding: 10px 0 10px 0;
+    }
+
+    .header ul{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .logo{
+        font-size: 30px !important;
+    }
+
+    .menu-canvas{
+        width: 75%;
+    }
+    
+    .user-canvas{
+        width: 75%;
+    }
+
+}

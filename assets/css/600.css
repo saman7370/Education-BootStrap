@@ -1,0 +1,11 @@
+@media(max-width:600px){
+    .logo{
+        font-size: 20px !important;
+    }
+
+    .searchBox:hover > .searchInput {
+        width: 150px;
+        padding: 0 6px;
+    }
+
+}

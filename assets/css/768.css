@@ -1,3 +1,15 @@
 @media(max-width:768px){
 
+    .menu-canvas{
+        width: 50%;
+    }
+    
+    .user-canvas{
+        width: 50%;
+    }
+
+    .custom-dropdown .dropdown-menu{
+        width: 300px;
+    }
+
 }

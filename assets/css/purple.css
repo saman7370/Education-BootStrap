@@ -39,3 +39,33 @@ body{
 .searchInput{
     color: var(--my-purple);}
 
+.text{
+    color: var(--my-light);}
+
+.dropdown-menu{
+    background-color: var(--my-dark-purple) !important;}
+
+.custom-dropdown .custom-notifications > li.unread a {
+    background: var(--my-dark-purple);}
+
+.custom-dropdown .custom-notifications > li.unread a:hover{
+    background-color: var(--my-purple);}
+
+.custom-dropdown .title{
+    color: var(--my-light);}
+
+.small{
+    color: var(--my-light);}
+
+.small:hover{
+    color: var(--my-khaki);}
+
+.custom-dropdown .btn.btn-custom {
+    border: 1px solid var(--my-light);}
+
+.custom-dropdown .dropdown-link{
+    color: var(--my-khaki);}
+
+.custom-dropdown .custom-notifications{
+    border-bottom: 1px solid var(--my-light);}
+
