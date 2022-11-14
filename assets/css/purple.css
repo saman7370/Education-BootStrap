@@ -26,6 +26,9 @@ body{
 .header ul li button{
     color: var(--my-light);}
 
+.header ul li button:hover{
+    color: var(--my-khaki);}
+
 .searchBox{
     background-color: var(--my-light);}
 
@@ -68,4 +71,17 @@ body{
 
 .custom-dropdown .custom-notifications{
     border-bottom: 1px solid var(--my-light);}
+
+.user-canvas{
+    background-color: var(--my-dark-purple);}
+
+.link-items{
+    background-color: var(--my-purple);}
+
+.link-items ul li:hover{
+    background-color: var(--my-dark-purple);}
+
+.link-items ul li a{
+    color: var(--my-light);}
+
 
