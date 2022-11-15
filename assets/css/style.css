@@ -303,18 +303,72 @@ h1,h2,h3,h4,h5,h6{
 /* main */
 
 .main{
-  margin-top:100px;}
+  margin-top:50px;}
 
 .side-slider{
   height: 80px;
-  border-radius: 20px;}
+  border-radius: 20px;
+  cursor: pointer;}
 
 .side-slider img{
   height:100px;}
 
 .slider{
-  margin-top: 100px;
-}
+  margin-top: 50px;
+  border-radius: 10px;
+overflow: hidden;}
+
+.slider-content .owl-nav{
+  display: none;}
+
+.slider-content .owl-dots{
+  margin-top: 10px;}
+
+.item{
+  border-radius: 10px;}
+
+.slider-img{
+  border-radius: 10px;
+  cursor: pointer;}
+
+.rotate-center:hover {
+  -webkit-animation: rotate-center 1s ease-in-out both;
+  animation: rotate-center 1s ease-in-out both;}
+
+  @-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+
+.owl-theme .owl-dots .owl-dot span{
+  width: 21px !important;}
+
+.top-back{
+  background-image: url("../img/slice-1-2\ -\ Copy.png");
+  background-size: cover;
+  background-position: bottom;
+  height: 190px;
+  margin: -70px 0;}
+  
+
+
+
 
 
 

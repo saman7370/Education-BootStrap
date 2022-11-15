@@ -95,6 +95,12 @@ body{
 
 .side-slider h5{
     color: var(--my-light);}
+
+.owl-theme .owl-dots .owl-dot span{
+    background-color: var(--my-khaki);}
+
+.owl-theme .owl-dots .owl-dot.active span{
+    background-color: var(--my-purple);}
       
 
 
