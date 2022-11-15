@@ -1,3 +1,5 @@
+// header start ===========>
+
 function loaded(){
     var load = $("#preloader");
     load.addClass("d-none");}
@@ -20,4 +22,17 @@ $(function(){
       $('.custom-dropdown').on('hide.bs.dropdown', function() {
         $(this).find('.dropdown-menu').removeClass('active');
       });
+})
+
+// header end ===========>
+
+//main slider start ===========>
+
+
+$('.owl-carousel').owlCarousel({
+  rtl:true,
+  loop:true,
+  margin:10,
+  nav:true,
+  items:1
 })

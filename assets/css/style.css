@@ -31,6 +31,7 @@ h1,h2,h3,h4,h5,h6{
 
 #preloader {
     position: fixed;
+    z-index: 9999;
     top: 0;
     left: 0;
     width: 100%;
@@ -284,8 +285,8 @@ h1,h2,h3,h4,h5,h6{
   text-align: start !important;}
 
 .menu-items ul li{
-  position: relative;
-  cursor: pointer;}
+  cursor: pointer;
+  position: relative;}
 
 .menu-items ul li::after{
   content: '';
@@ -297,10 +298,25 @@ h1,h2,h3,h4,h5,h6{
 
 .menu-items ul li:hover::after{
   content: '';
-  position: absolute;
-  bottom: 0;
-  width: 90%;
-  height: 3px;}
+  width: 90%;}
+
+/* main */
+
+.main{
+  margin-top:100px;}
+
+.side-slider{
+  height: 80px;
+  border-radius: 20px;}
+
+.side-slider img{
+  height:100px;}
+
+.slider{
+  margin-top: 100px;
+}
+
+
 
 
 

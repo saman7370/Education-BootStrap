@@ -89,6 +89,12 @@ body{
 
 .menu-items ul li::after{
     background-color: var(--my-khaki);}
+
+.side-slider{
+    background-color: var(--my-purple);}
+
+.side-slider h5{
+    color: var(--my-light);}
       
 
 
