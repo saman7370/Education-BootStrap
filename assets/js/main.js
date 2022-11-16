@@ -36,5 +36,6 @@ $('.owl-carousel').owlCarousel({
   nav:true,
   items:1,
   autoplay:true,
-  autoplayHoverPause:true
+  autoplayHoverPause:true,
+  smartSpeed:1000
 })

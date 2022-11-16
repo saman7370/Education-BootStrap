@@ -1,5 +1,5 @@
 :root{
-    --my-dark:#010101;
+    --my-dark:#23262d;
     --my-purple:#5f43b2;
     --my-light:#fefdfd;
     --my-khaki:#b1aebb;
@@ -100,6 +100,24 @@ body{
     background-color: var(--my-khaki);}
 
 .owl-theme .owl-dots .owl-dot.active span{
+    background-color: var(--my-purple);}
+
+.section-two{
+    background-color: var(--my-dark);}
+
+.slider-options{
+    background-color: var(--my-purple);}
+
+.slider-options-two{
+    background-color: var(--my-purple);}
+
+.section-two-title::before{
+    background-color: var(--my-khaki);}
+
+.section-two-title::after{
+    background-color: var(--my-purple);}
+
+.option-title{
     background-color: var(--my-purple);}
       
 

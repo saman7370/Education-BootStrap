@@ -1,0 +1,14 @@
+@media(max-width:575px){
+
+    
+.slider-options{
+    border-radius: 10px 10px 0 0;}
+  
+  .slider-two{
+    border-radius:0 0 10px 10px;
+    width: 100%;}
+  
+  .slider-two img{
+    border-radius: 0 0 10px 10px;}
+   
+}
