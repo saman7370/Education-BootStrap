@@ -119,6 +119,29 @@ body{
 
 .option-title{
     background-color: var(--my-purple);}
-      
+
+.slider-content-three .owl-nav .owl-prev{
+    background-color: var(--my-khaki) !important;
+    color: var(--my-purple) !important;}
+
+.slider-content-three .owl-nav .owl-next{
+    background-color: var(--my-khaki) !important;
+    color: var(--my-purple) !important;}
+
+.btn-shuttle{
+    background-color: var(--my-purple) !important;
+    color: var(--my-light);}
+
+.row-shuttle{
+    background-color: #fefdfda6;}
+
+.btn-shuttle:hover{
+    background-color: var(--my-dark-purple) !important;
+    color: var(--my-light) !important;}
+    
+
+
+
+
 
 
