@@ -129,14 +129,15 @@ body{
     color: var(--my-purple) !important;}
 
 .btn-shuttle{
-    background-color: var(--my-purple) !important;
+    background-color: var(--my-dark-purple) !important;
     color: var(--my-light);}
 
 .row-shuttle{
-    background-color: #fefdfda6;}
+    background-color: #5f43b2d6;
+    color: var(--my-light);} 
 
 .btn-shuttle:hover{
-    background-color: var(--my-dark-purple) !important;
+    background-color: var(--my-purple) !important;
     color: var(--my-light) !important;}
     
 

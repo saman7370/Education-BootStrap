@@ -457,9 +457,13 @@ h1,h2,h3,h4,h5,h6{
 /* sectoin three shuttle */
 
 .row-shuttle{
-  border: 2px solid #5f43b2;
+  /* border: 2px solid #5f43b2; */
   border-radius: 10px;
-  margin-top: -150px;}
+  margin-top: -130px;}
+
+.btn-shuttle{
+  border: 1px solid #fff;}
+
 
 
 
