@@ -29,7 +29,7 @@ $(function(){
 //main slider start ===========>
 
 
-$('.owl-carousel').owlCarousel({
+$('#slider-one').owlCarousel({
   rtl:true,
   loop:true,
   margin:10,
@@ -38,4 +38,59 @@ $('.owl-carousel').owlCarousel({
   autoplay:true,
   autoplayHoverPause:true,
   smartSpeed:1000
+})
+
+
+// slider two ===========>
+
+
+$('#slider-two').owlCarousel({
+  rtl:true,
+  loop:true,
+  margin:10,
+  nav:true,
+  items:1,
+  autoplay:true,
+  autoplayHoverPause:true,
+  smartSpeed:1000
+})
+
+
+// slider three ===========>
+
+
+$('#slider-three').owlCarousel({
+  rtl:true,
+  loop:true,
+  margin:10,
+  nav:true,
+  items:1,
+  autoplay:true,
+  autoplayHoverPause:true,
+  smartSpeed:1000
+})
+
+// slider-four
+
+
+$('#slider-four').owlCarousel({
+  rtl:true,
+  loop:true,
+  margin:10,
+  nav:true,
+  items:6,
+  autoplay:true,
+  autoplayHoverPause:true,
+  smartSpeed:1000,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:2
+      },
+      1000:{
+          items:4
+      }
+  }
 })
